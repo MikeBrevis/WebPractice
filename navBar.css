@@ -1,0 +1,56 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+.main_container,
+.logo_and_tittle {
+    display: flex;
+    align-items: center;
+}
+
+.main_container {
+    justify-content:flex-start;
+    padding: 0 50px;
+    height: 120px;
+    background-color: #E5E5E5;
+}
+
+.main_logo img {
+    height: 90px;
+}
+
+.main_tittle {
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_tittle h2 {
+    font-size: 35px;
+    color: #FFB512;
+}
+
+.main_tittle p {
+    font-size: 17px;
+    color: #14213D;
+}
+
+@media (max-width: 400px) {
+    .main_container {
+        padding: 0 20px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main_logo img {
+        height: 70px;
+    }
+}
+
+.information_box {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
